@@ -1,0 +1,41 @@
+league {
+    uuid: "73f1fc07-fb0d-4741-9a9d-93df8aafc484"
+    name: "North American Deathmatch League"
+
+    team {
+        uuid: "4acd21c9-cfb7-4715-9f9c-383064c723ae"
+        name: "WonderPets"
+        player {name: "Linny"}
+        player {name: "Ming-Ming"}
+        player {name: "Tuck"}
+        player {name: "Ollie"}
+    }
+
+    team {
+        uuid: "ffb928aa-ce44-4207-8228-c32f2c69404a"
+        name: "YoGabbaGabba"
+        player {name: "Foofa"}
+        player {name: "Muno"}
+        player {name: "Brobee"}
+        player {name: "DJ-Lance-Rock"}
+    }
+
+    team {
+        uuid: "dd19c9cd-839f-4519-a187-7f0d06116a08"
+        name: "MLP"
+        player {name: "Twilight"}
+        player {name: "Fluttershy"}
+        player {name: "Applejack"}
+        player {name: "Pinkie"}
+    }
+
+    team {
+        uuid: "928300e8-13f0-4f51-94d4-1f48020e2250"
+        name: "Freshbeats"
+        player {name: "Marina"}
+        player {name: "Kiki"}
+        player {name: "Twist"}
+        player {name: "Shout"}
+    }
+}
+
