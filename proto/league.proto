@@ -1,0 +1,41 @@
+syntax="proto3";
+
+option go_package = "github.com/packetflinger/league-testing/proto";
+
+package proto;
+
+enum TeamType {
+	TeamSingle = 0;
+	TeamMultiple = 1;
+}
+
+message League {
+	string uuid = 1;
+	string name = 2;
+	int64 start_time = 3;
+	int64 end_time = 4;
+	int32 sort = 5;
+	repeated Team team = 7;
+	repeated Match match = 8;
+}
+
+message Team {
+	string uuid = 1;
+	string name = 2;
+	repeated Player player = 3;
+}
+
+message Player {
+	string name = 1;
+}
+
+message Match {
+	string uuid = 1;
+	Team team_home = 2;
+	Team team_away = 3;
+	bool played = 4;
+	int64 time_scheduled = 5;
+	int64 time_played = 6;
+	bool forfeit = 7;
+	Team winner = 8;
+}
