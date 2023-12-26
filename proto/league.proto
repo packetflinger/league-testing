@@ -9,6 +9,10 @@ enum TeamType {
 	TeamMultiple = 1;
 }
 
+message Leagues {
+	repeated League league = 1;
+}
+
 message League {
 	string uuid = 1;
 	string name = 2;
