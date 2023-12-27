@@ -42,4 +42,7 @@ message Match {
 	int64 time_played = 6;
 	bool forfeit = 7;
 	Team winner = 8;
+	int64 time_created = 9;
+	int64 time_forced = 10;
+	string time_force_by = 11;
 }
